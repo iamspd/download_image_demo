@@ -9,11 +9,12 @@
     <ImageView
         android:id="@+id/ivKrishna"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnClickMe"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_margin="12dp"
-        android:src="@drawable/krishna_img" />
+        android:contentDescription="Lord Krishna" />
 
     <Button
         android:id="@+id/btnClickMe"
